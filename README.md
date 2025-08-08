@@ -38,6 +38,9 @@ Messy but meaningful — comments, TODOs, and half-baked ideas included.
 4. [![Gin](https://img.shields.io/badge/Gin-00ADD8?logo=go&logoColor=white)](https://github.com/MeghvShetty/Apollo-24)
 5. [![Griptap](https://img.shields.io/badge/Griptap-FF6F61?style=flat&logo=github&logoColor=white)](https://github.com/MeghvShetty/rag-vertexai-gcp)
 6. ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+7. ![Neovim Scripts](https://img.shields.io/badge/Neovim_Scripts-57A143?logo=neovim&logoColor=white)
+
+
 
 
 ![Igniting Soon](https://img.shields.io/badge/Igniting_Soon-FF6F61?style=flat&logo=fire&logoColor=white) I am planning to begin, or code is all over the place. 
