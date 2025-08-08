@@ -25,20 +25,20 @@ Messy but meaningful — comments, TODOs, and half-baked ideas included.
 
 # 🖥️ Tech in the Inferno - Current & Future
 **Languages** 
-1. ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
-2. ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+1. [![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)](https://github.com/MeghvShetty/mind-inferno/tree/main/golang)
+2. [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://github.com/MeghvShetty/mind-inferno/tree/main/python)
 3. ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 4. ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white) - ![Igniting Soon](https://img.shields.io/badge/Igniting_Soon-FF6F61?style=flat&logo=fire&logoColor=white) 
 5. ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) -  ![Igniting Soon](https://img.shields.io/badge/Igniting_Soon-FF6F61?style=flat&logo=fire&logoColor=white)
 
 **Frameworks / Tools**
 1. ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=chainlink&logoColor=white) -  ![Igniting Soon](https://img.shields.io/badge/Igniting_Soon-FF6F61?style=flat&logo=fire&logoColor=white)
-2. ![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB) -  ![Igniting Soon](https://img.shields.io/badge/Igniting_Soon-FF6F61?style=flat&logo=fire&logoColor=white)
+2. [![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB)](https://github.com/MeghvShetty/mind-inferno/tree/main/react-native)
 3. ![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white) -  ![Igniting Soon](https://img.shields.io/badge/Igniting_Soon-FF6F61?style=flat&logo=fire&logoColor=white)
 4. [![Gin](https://img.shields.io/badge/Gin-00ADD8?logo=go&logoColor=white)](https://github.com/MeghvShetty/Apollo-24)
 5. [![Griptap](https://img.shields.io/badge/Griptap-FF6F61?style=flat&logo=github&logoColor=white)](https://github.com/MeghvShetty/rag-vertexai-gcp)
-6. ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-7. ![Neovim Scripts](https://img.shields.io/badge/Neovim_Scripts-57A143?logo=neovim&logoColor=white)
+6. [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://github.com/MeghvShetty/mind-inferno/tree/main/docker)
+7. [![Neovim Scripts](https://img.shields.io/badge/Neovim_Scripts-57A143?logo=neovim&logoColor=white)](https://github.com/MeghvShetty/mind-inferno/tree/main/nvim)
 
 
 
