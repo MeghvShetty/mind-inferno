@@ -1,0 +1,2 @@
+/home/Exercism/Go_lang/readFile/file.dat
+/home/Exercism/Go_lang/readFile/test.conf
