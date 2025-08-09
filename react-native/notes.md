@@ -94,3 +94,72 @@ Summary of Tools:
 7. Expo CLI (Optional): For a simpler React Native setup.
 
 ---
+
+__Native app development__ 
+- objective-C/ Swift for ios and Java / Kotline for android 
+- Multiple code bases and multiple teams to support IOS Android 
+- Time consuming development across multiple code bases
+- High performance in native apps built for IOS/Android 
+
+__Reat Native development__
+- Java scaript using React for both IOS and Android 
+- One codebase and one team for both IOS and Android 
+- Faster development with one codebase to maintain 
+- Lower performance compared to native apps 
+
+# React Native Ecosystem 
+## Expo
+- Lets you build a React Native app without any build configuration.
+- No Xcode or Android Studio 
+- Use only JavaScript, and never touch native code
+
+## Tesing 
+> ___"Quality means doing it right, even when no one is looking."___ - __Heary Ford__
+
+__Unit Testing__
+- Testing smallest units of code (functions, class).
+- Fastest to run and you can write lot of them. 
+
+Tools :
+
+1. Jest  
+    - Writen in JavaScript 
+    - Works out of box 
+    - Powerful mocking library 
+    - Built-in code coverage report 
+    - Runs only test files related to changed files. 
+    - supports snapshot code testing 
+
+__Compenent Testing__
+- JS tests running in Node.js enviroment 
+- Tests React Native component code 
+- Tests interaction and rending 
+- Does not test platform specific IOS or Android code
+
+Tools:
+1. React Native Testing Library 
+
+__End-to-end Testing__ 
+- Emulates a user testing experience 
+- Increases confidence in code. 
+- Auotmated UI tests 
+- Written in JavaScript 
+- Test execution runs on emulator 
+- More time consuming and slower to run
+
+Tools:
+1. Detox
+2. Appium 
+3. Maestro 
+
+## Deployment 
+1. Over the Air (OTA) updates - Bypass App store/ Google Playstore, while releasing an update. 
+2. Native updates to app store 
+
+Tools
+1. fastlane
+2. Visual studio App center
+
+Beta Deployment 
+1. TestFlight
+2. Google Play 
