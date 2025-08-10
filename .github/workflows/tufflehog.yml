@@ -3,7 +3,7 @@ name: TruffleHog Scan
 on:
   pull_request:
     branches:
-      - main  # Or any other branches you'd like to monitor
+      - main
     paths:
       - '**/*'  # Scan all files in the repository
 
@@ -27,12 +27,24 @@ jobs:
       - name: Run TruffleHog scan
         id: trufflehog_scan
         run: |
+          echo "Running TruffleHog scan..."
           result=$(trufflehog --json .)
+          echo "TruffleHog scan completed."
+          echo "Scan result: $result"
           echo "::set-output name=result::$result"
-      
+        
+      - name: Check if there are scan results
+        run: |
+          if [ -z "${{ steps.trufflehog_scan.outputs.result }}" ]; then
+            echo "No findings, skipping comment posting."
+          else
+            echo "Scan results found, posting comment..."
+          fi
+
       - name: Comment on PR with results
         if: steps.trufflehog_scan.outputs.result != ''
         run: |
+          echo "Posting comment on PR..."
           curl -X POST \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           -H "Content-Type: application/json" \
