@@ -21,15 +21,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install TruffleHog
-        run: |
-          pip install trufflehog
-
-      - name: Run TruffleHog Scan
+      - name: Run TruffleHog Scan (v2.6.0)
         id: trufflehog_scan
-        uses: trufflesecurity/trufflehog@v3.90.3
+        uses: trufflesecurity/trufflehog@v2.6.0  # Use older version (v2.6.0)
         with:
-          directory: "."  # Optional: specify which directory to scan
+          path: '.'  # Scan the entire repository
+          extra_args: '--verbose --depth 10 --max_depth 100'  # Scan with extra arguments
 
       - name: Check for TruffleHog scan results
         run: |
