@@ -1,0 +1,42 @@
+name: TruffleHog Scan
+
+on:
+  pull_request:
+    branches:
+      - main  # Or any other branches you'd like to monitor
+    paths:
+      - '**/*'  # Scan all files in the repository
+
+jobs:
+  trufflehog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install trufflehog
+
+      - name: Run TruffleHog scan
+        id: trufflehog_scan
+        run: |
+          result=$(trufflehog --json .)
+          echo "::set-output name=result::$result"
+      
+      - name: Comment on PR with results
+        if: steps.trufflehog_scan.outputs.result != ''
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{
+                "body": "TruffleHog Scan Results:\n\n'${{ steps.trufflehog_scan.outputs.result }}'"
+              }' \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments
