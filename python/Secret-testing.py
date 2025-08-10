@@ -1,7 +1,7 @@
 import os
 
 # Simulate a secret key (e.g., API key, password)
-SECRET_API_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"  # <-- This is the secret
+SECRET_API_KEY = "AIzaSyBXQrz2TgvAPTVL5jIvNlWWJQmSPx64fw3"  # <-- This is the secret
 
 def connect_to_service():
     # Pretend to use the secret API key to connect to some service
