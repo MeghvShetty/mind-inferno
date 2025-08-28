@@ -39,6 +39,9 @@ Messy but meaningful — comments, TODOs, and half-baked ideas included.
 5. [![Griptap](https://img.shields.io/badge/Griptap-FF6F61?style=flat&logo=github&logoColor=white)](https://github.com/MeghvShetty/rag-vertexai-gcp)
 6. [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://github.com/MeghvShetty/mind-inferno/tree/main/docker)
 7. [![Neovim Scripts](https://img.shields.io/badge/Neovim_Scripts-57A143?logo=neovim&logoColor=white)](https://github.com/MeghvShetty/mind-inferno/tree/main/nvim)
+8. [![Agent Development Kit](https://img.shields.io/badge/Agent%20Development%20Kit-blue?logo)](https://github.com/MeghvShetty/mind-inferno/tree/main/agentic-ai-adk) 
+
+
 
 
 
