@@ -20,7 +20,7 @@ resource "google_project" "model-armor-c0d3x" {
 # Attaching Billing resource to model armor C0D3X project 
 resource "google_billing_project_info" "project-billing" {
   project         = google_project.model-armor-c0d3x.project_id
-  billing_account = "01A883-C7E889-8284DA"
+  billing_account = "01A883-C7E889-8284DA" # <- example 
 }
 
 # Enable API for model armor 
