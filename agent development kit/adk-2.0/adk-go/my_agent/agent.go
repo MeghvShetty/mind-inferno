@@ -18,7 +18,7 @@ func main(){
 	ctx := context.Background()
 
 	model, err := genai.Newmodel(ctx,"gemini-3-pro-preview", &genai.ClientConfig{
-		APIKEY: os.Getenv("GOOGLE_API_KEY")
+		APIKEY: os.Getenv("GOOGLE_API_KEY");
 	})
 	if err !=nil{
 		log.Fatalf("Faild to create model: %v", err)
